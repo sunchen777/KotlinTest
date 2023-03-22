@@ -23,9 +23,7 @@ class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContent {
-            ComposeTheme {
-                MessageCard(Message("1234567890","abcdefghijklmn"))
-            }
+            DefaultPreview()
         }
     }
 
